@@ -120,15 +120,19 @@ INSERT INTO FareHistory VALUE(9, "2024-01-01", "2025-01-01", "1.9");
 INSERT INTO FareHistory VALUE(10, "2024-01-01", "2025-01-01", "1.8");
 
 INSERT INTO LoyaltySubscription VALUE(2, "2024-06-01", "2024-12-01");
-INSERT INTO LoyaltySubscription VALUE(3, "2024-01-01", "2024-6-01");
+INSERT INTO LoyaltySubscription VALUE(3, "2024-01-01", "2024-06-01");
 INSERT INTO LoyaltySubscription VALUE(6, "2024-04-01", "2024-10-01");
-INSERT INTO LoyaltySubscription VALUE(9, "2024-03-01", "2024-9-01");
+INSERT INTO LoyaltySubscription VALUE(9, "2024-03-01", "2024-09-01");
+INSERT INTO LoyaltySubscription VALUE(3, "2024-08-01", "2024-09-01");
+INSERT INTO LoyaltySubscription VALUE(3, "2024-11-01", "2024-12-01");
+INSERT INTO LoyaltySubscription VALUE(6, "2024-01-01", "2024-03-01");
 
 INSERT INTO Ride VALUE("1", "1", "2", "2024-3-17", "Low", "50.33", "5", NULL);
 INSERT INTO Ride VALUE("2", "1", "6", "2024-4-9", "Low", "70.56", "4", "20.0");
 INSERT INTO Ride VALUE("3", "1", "8", "2024-2-2", "High", "56.43", "4", "12.5");
 INSERT INTO Ride VALUE("4", "1", "9", "2024-5-13", "Medium", "33.78", "3", NULL);
 INSERT INTO Ride VALUE("5", "1", "7", "2024-3-18", "High", "65.72", "4", "34.7");
+INSERT INTO Ride VALUE("16", "1", "4", "2024-9-18", "High", "65.72", "4", "34.7");
 
 INSERT INTO Ride VALUE("6", "2", "5", "2024-7-24", "Medium", "89.34", "3", NULL);
 INSERT INTO Ride VALUE("7", "2", "8", "2024-7-21", "Low", "56.26", "4", "67.5");
